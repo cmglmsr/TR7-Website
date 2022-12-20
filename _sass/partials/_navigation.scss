@@ -8,6 +8,7 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
     z-index: 500;
     width: 100%;
     padding: 0 45px;
+    height: 85px;
     @media (min-width: 768px) and (max-width: 991px) {
         padding: 13px 0 0 34px;
     }
@@ -79,7 +80,7 @@ nav {
         padding: 0;
         list-style: none;
         text-align: left;
-        transform: translateY(40px);
+        transform: translateY(20px);
         transition: $base-transition;
         @media (max-width: 767px) {
             line-height: 20px;

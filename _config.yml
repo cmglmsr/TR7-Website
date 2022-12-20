@@ -10,30 +10,30 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
+title: "TR7"
 email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
+description: "TR7 is a cybersecurity company located in Ankara"
 baseurl: "/zeppelin"
 url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
 googleAnalyticsSiteUrl: "gdg-x.github.io"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no" 
 
 # Organizer Info
 organizerName: "GDG Lviv"
 organizerAlternateName: "Google Developer Group Lviv"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
 organizerEmail: "lviv@gdg.org.ua"
-organizerLogo: "/img/seo/organizer-logo.png"
+organizerLogo: "/img/seo/logo2.png"
 organizerLink: "http://lviv.gdg.org.ua/"
 
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
 twitterAccount: "@DevFest"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+socialImageSrcGooglePlus: "/img/seo/logo2.png"
+socialImageSrcTwitter: "/img/seo/logo2.png"
+socialImageSrcFacebook: "/img/seo/logo2.png"
 
 # Documents
 c4pUrl: "https://bit.ly/dfua-c4p"
@@ -49,6 +49,7 @@ navigationLinks:
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "/hackathon/", text: "test"}
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 rightNavigationButtons:
@@ -56,20 +57,20 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
+heroTitle: "TR7 <typeout> Since 2018"
+eventDate: "TR7 Load Balancing and Application Security Platform"
+typeoutTextValues: '"", "Load Balancing", "Application Security", "WAF", "DDoS Protection"'
 typeoutFallback: "Season"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+ - {link: "https://bit.ly/dfua-c4p", text: "Detailed Information"}
+ - {permalink: "/#tickets", text: "Our Products"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "Secure Web Applications With TR7"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Plug-and-Play", image: "plug.jpg", text: "TR7 is designed for companies that want a high-performance, uninterrupted plug-and-play system to balance application flows and guarantee the highest availability of critical application platforms / servers." }
+ - {title: "Reasonable Price", image: "money.jpg", text: "TR7 TASP, Open source components are optimized and used with reliable hardware platforms, provides business partners with advantageous prices at more competitive prices compared to other LB manufacturers." }
+ - {title: "Scalable", image: "scale.jpg", text: "With different boxes, it is adapted to every need with parallel operating modes (active-passive / active-active / passive-passive) depending on the processing power, infrastructure needs and critical level." }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -84,7 +85,7 @@ latestNewsTitle: "Latest news"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
-rockstarSpeakersCount: 4
+rockstarSpeakersCount: 4  
 rockstarSpeakersTitle: "Rockstar speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
