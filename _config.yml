@@ -49,7 +49,10 @@ navigationLinks:
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
- - {permalink: "/hackathon/", text: "test"}
+ - {permalink: "/test/", text: "test"}
+ - {permalink: "/tr/", text: "TR"}
+ - {permalink: "/", text: "EN"}
+
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 rightNavigationButtons:
