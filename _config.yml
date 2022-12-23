@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "TR7"
 email: "devfest@gdg.org.ua"
 description: "TR7 is a cybersecurity company located in Ankara"
-baseurl: "/zeppelin"
+baseurl: ""
 url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
@@ -43,12 +43,12 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
+ - {permalink: "/solutions/", text: "Solutions & Products"}
+ - {permalink: "/about/", text: "About"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
  - {permalink: "/test/", text: "test"}
  - {permalink: "/tr/", text: "TR"}
  - {permalink: "/", text: "EN"}
@@ -63,11 +63,16 @@ heroImage: "hero.jpg"
 heroTitle: "TR7 <typeout> Since 2018"
 trHeroTitle: "TR7 <typeout> 2018'den Beri"
 eventDate: "TR7 Load Balancing and Application Security Platform"
+trEventDate: "TR7 Yük Dengeleme ve Uygulama Güvenlik Platformu"
 typeoutTextValues: '"", "Load Balancing", "Application Security", "WAF", "DDoS Protection"'
+trTypeoutTextValues: '"", "Yük Dengeleme", "Uygulama Güvenliği", "WAF", "DDoS Koruması"'
 typeoutFallback: "Season"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Detailed Information"}
  - {permalink: "/#tickets", text: "Our Products"}
+trHeroButtons:
+ - {link: "https://bit.ly/dfua-c4p", text: "Detaylı Bilgi"}
+ - {permalink: "/#tickets", text: "Çözümlerimiz"}
 
 # About Block
 aboutTitle: "Secure Web Applications With TR7"
@@ -207,8 +212,8 @@ discusShortName: "devfestua"
 showSessions: true
 
 # Team Block
-teamBlockTitle: "About us"
-aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+teamBlockTitle: "Our History & Vision"
+aboutUs: "As TR7 Cyber Security Inc., we set off to eliminate external dependency on load balancing, application distribution and application security, which is one of the areas where our country needs improvement in national cyber security, and to minimize the security gaps that may arise. With the prediction that international wars will take place with cyber elements instead of weapons, our work started in 2008 with producing domestic and national Load Balancer and Web Application Firewall as TRScaler and today continues with the addition of high performance and innovative features to our current technology with the TR7 brand name. "
 
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
@@ -256,15 +261,15 @@ directionDetailsWideCards:
      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
 # Hackathon
-hackathonTitle: "Hackathon"
+hackathonTitle: "Solutions & Products"
 enableHackathon: true
 
 # Hackathon About Block
-aboutHackathonTitle: "Meet our themes"
+aboutHackathonTitle: "Secure your business with TR7"
 hackathonRows:
- - {title: "Android Wear", image: "hackathon-0.png", details: "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!"}
- - {title: "Google Glass", image: "hackathon-1.png", details: "We love wearable computing especially Google Glass for which we want to gather the break up community in order to boost innovation.<br><br>Coding an app on Google Glass needs its Rockstar Dev : the team needs a fast learner with solid skills on Android. He knows his way around Android SDK, already checked the Glass Developement Kit (GDK) quick start guide allowing him to jump start developing an app for Glass.The Designer has the hard task to build the visual identity from the ground up, he has strong UX knowledge and a deep understanding of the new rules set by the Glass. His design skills give him the credibility to decide the most effective UI and the most compelling Glass experience."}
- - {title: "Polymer", image: "hackathon-2.png", details: "Polymer is a library that introduces web components. Web components are small elements on a page that can be extended and incorporated in web applications. The result is an increase in productivity.<br><br>We used Polymer mainly to explore the concept of web components. The transition of Google to material design was also a factor.While the library was never touched by the team, it still was painless to wireframe the application. Later on we incorporated some Polymer components in the design. We didn’t use the full potential of Polymer because of the limited time."}
+ - {title: "Reliable Security", image: "securityicon.jpg", details: "Effective protection, learning and signature-based security with Positive and Negative WAF. Protocol authentication (HTTP) and full protection against denial of service attacks (DoS, DDoS), worms, SQL code injections, etc. Traffic manipulation and advanced URL filtering with authentication-based restriction capability."}
+ - {title: "High Performance", image: "speed.png", details: "High speed caching system to free up your web servers and reduce page load times. Traffic compression and HTTP authentication/ authorization cache. TCP / HTTP acceleration through buffering and adjusting server link density with dynamic load balancing."}
+ - {title: "Multilayer Load Balancing", image: "layers.png", details: "Load-Balancing supports different protocols (HTTP, DNS, SMTP, IMAP, POP3 etc.) for Layer3 and Layer7 load balancing. All IPv4 and IPv6 protocols, SNI-SSL based virtual hosts, content-based intelligent query routing (content change), reverse proxy, NAT, direct server converter and non-VIP modes are all supported."}
 
 # Hackathon Judges Block
 judgesImage: "judges.jpg"
