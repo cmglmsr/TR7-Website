@@ -5,6 +5,7 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
 
 .top-header {
     position: fixed;
+    font-weight: bold;
     z-index: 500;
     width: 100%;
     padding: 0 45px;
@@ -16,10 +17,12 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
         padding-top: 0;
         box-shadow: 0 0 5px rgba(0, 0, 0, .2), 0 1px 0 rgba(255, 255, 255, .15);
         .overlay {
+            background-color: rgb(1, 126, 243);
             opacity: 1;
         }
     }
     .overlay {
+        background-color: rgb(1, 126, 243);
         opacity: 0;
         transition: $base-transition;
     }
@@ -39,7 +42,6 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
     }
     .logo {
         display: inline-block;
-        float: left;
         width: 185px;
         height: 60px;
         margin-right: 20px;
@@ -58,6 +60,7 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
     vertical-align: middle;
 }
 nav {
+    font-weight: bold;
     @media (max-width: 767px) {
         position: fixed;
         z-index: 100;
@@ -75,6 +78,7 @@ nav {
         transform: translate(0);
     }
     ul {
+        font-weight: bold;
         float: left;
         margin: 0;
         padding: 0;
@@ -104,7 +108,7 @@ nav {
         }
         a {
             font-size: $base-font-size;
-            font-weight: $regular;
+            font-weight: bold;
             transition: $base-transition;
             text-transform: uppercase;
             color: $nav-color;

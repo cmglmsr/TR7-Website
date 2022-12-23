@@ -61,6 +61,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "TR7 <typeout> Since 2018"
+trHeroTitle: "TR7 <typeout> 2018'den Beri"
 eventDate: "TR7 Load Balancing and Application Security Platform"
 typeoutTextValues: '"", "Load Balancing", "Application Security", "WAF", "DDoS Protection"'
 typeoutFallback: "Season"
