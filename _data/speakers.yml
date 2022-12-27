@@ -72,5 +72,5 @@
   company: "Date"
   title: "Add title of the document here."
   bio: "Add information about the documentation here."
-  thumbnailUrl: test.jpg
-  rockstar: true
+  thumbnailUrl: ValentynShybanov.jpg
+  rockstar: false

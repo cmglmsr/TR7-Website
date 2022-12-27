@@ -52,6 +52,18 @@ navigationLinks:
  - {permalink: "/tr/", text: "TR"}
  - {permalink: "/", text: "EN"}
 
+# TR Navigation
+tr_navigationLinks:
+ - {permalink: "/tr/", text: "Anasayfa"}
+ - {permalink: "/tr/cozumler/", text: "Çözümler & Ürünler"}
+ - {permalink: "/tr/hakkimizda/", text: "Hakkımızda"}
+ - {permalink: "/tr/blog/", text: "Blog"}
+ - {permalink: "/tr/dokumantasyon/", text: "Dokümantasyon"}
+ - {permalink: "/tr/referanslar/", text: "Referanslar"}
+ - {permalink: "/tr/iletisim/", text: "İletİşİm"}
+ - {permalink: "/tr/", text: "TR"}
+ - {permalink: "/", text: "EN"}
+
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 rightNavigationButtons:
@@ -259,11 +271,15 @@ directionDetailsWideCards:
      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
-# Hackathon
+# Solutions & Products
 hackathonTitle: "Solutions & Products"
 enableHackathon: true
 
-# Hackathon About Block
+# TR Solutions & Products
+trHackathonTitle: "Çözümlerimiz ve Ürünlerimiz"
+trEnableHackathon: true
+
+# Solutions About Block
 aboutHackathonTitle: "Secure your business with TR7"
 hackathonRows:
  - {title: "Reliable Security", image: "securityicon.jpg", details: "Effective protection, learning and signature-based security with Positive and Negative WAF. Protocol authentication (HTTP) and full protection against denial of service attacks (DoS, DDoS), worms, SQL code injections, etc. Traffic manipulation and advanced URL filtering with authentication-based restriction capability."}
