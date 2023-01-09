@@ -51,7 +51,7 @@ navigationLinks:
  - {permalink: "/contact/", text: "Contact Us"}
  - {permalink: "/tr/", text: "TR"}
  - {permalink: "/", text: "EN"}
- - {permalink: "/", text: "DENEME"}
+ - {permalink: "/deneme", text: "DENEME"}
 
 
 # TR Navigation
