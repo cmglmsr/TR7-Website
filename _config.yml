@@ -1,5 +1,5 @@
 # Plugins
-gems:
+plugins:
 - jekyll-sitemap
 safe: false
 
@@ -8,6 +8,8 @@ markdown: kramdown
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
+collections:
+  - members
 
 # Site Settings
 title: "TR7"
@@ -46,12 +48,27 @@ navigationLinks:
  - {permalink: "/solutions/", text: "Solutions & Products"}
  - {permalink: "/about/", text: "About"}
  - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/test/", text: "test"}
+ - {permalink: "/documentation/", text: "Documentation"}
+ - {permalink: "/references/", text: "References"}
+ - {permalink: "/contact/", text: "Contact Us"}
  - {permalink: "/tr/", text: "TR"}
  - {permalink: "/", text: "EN"}
+ - {permalink: "/deneme", text: "DENEME"}
+
+
+# TR Navigation
+tr_navigationLinks:
+ - {permalink: "/tr/", text: "Anasayfa"}
+ - {permalink: "/tr/cozumler/", text: "Çözümler & Ürünler"}
+ - {permalink: "/tr/hakkimizda/", text: "Hakkımızda"}
+ - {permalink: "/tr/blog/", text: "Blog"}
+ - {permalink: "/tr/dokumantasyon/", text: "Dokümantasyon"}
+ - {permalink: "/tr/referanslar/", text: "Referanslar"}
+ - {permalink: "/tr/iletisim/", text: "İletİşİm"}
+ - {permalink: "/tr/", text: "TR"}
+ - {permalink: "/", text: "EN"}
+ - {permalink: "/tr/deneme", text: "TR DENEME"}
+
 
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
@@ -208,8 +225,13 @@ blogTitle: "Latest news"
 blogCommentsEnabled: true
 discusShortName: "devfestua"
 
+# TR Blog
+trBlogTitle: "Türkçe Blog"
+trBlogCommentsEnabled: true
+trDiscusShortName: "devfestua"
+
 # Speakers List Block
-showSessions: true
+showSessions: false
 
 # Team Block
 teamBlockTitle: "Our History & Vision"
@@ -223,8 +245,8 @@ findWayWalking: "WALKING"
 findWayBicycling: "BICYCLING"
 findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "49.056728, 3.117289"
-logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+logisticsMapCenterCoordinates: "0, 0"
+logisticsMapMobileCenterCoordinates: "0, 0"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
@@ -260,11 +282,15 @@ directionDetailsWideCards:
      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
-# Hackathon
+# Solutions & Products
 hackathonTitle: "Solutions & Products"
 enableHackathon: true
 
-# Hackathon About Block
+# TR Solutions & Products
+trHackathonTitle: "Çözümlerimiz ve Ürünlerimiz"
+trEnableHackathon: true
+
+# Solutions About Block
 aboutHackathonTitle: "Secure your business with TR7"
 hackathonRows:
  - {title: "Reliable Security", image: "securityicon.jpg", details: "Effective protection, learning and signature-based security with Positive and Negative WAF. Protocol authentication (HTTP) and full protection against denial of service attacks (DoS, DDoS), worms, SQL code injections, etc. Traffic manipulation and advanced URL filtering with authentication-based restriction capability."}
