@@ -1,5 +1,5 @@
 # Plugins
-gems:
+plugins:
 - jekyll-sitemap
 safe: false
 
@@ -8,6 +8,8 @@ markdown: kramdown
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
+collections:
+  - members
 
 # Site Settings
 title: "TR7"
@@ -65,6 +67,8 @@ tr_navigationLinks:
  - {permalink: "/tr/iletisim/", text: "İletİşİm"}
  - {permalink: "/tr/", text: "TR"}
  - {permalink: "/", text: "EN"}
+ - {permalink: "/tr/deneme", text: "TR DENEME"}
+
 
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
@@ -220,6 +224,11 @@ footerBlocks:
 blogTitle: "Latest news"
 blogCommentsEnabled: true
 discusShortName: "devfestua"
+
+# TR Blog
+trBlogTitle: "Türkçe Blog"
+trBlogCommentsEnabled: true
+trDiscusShortName: "devfestua"
 
 # Speakers List Block
 showSessions: false
