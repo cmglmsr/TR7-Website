@@ -54,7 +54,7 @@ navigationLinks:
  - {permalink: "/tr/", text: "TR"}
  - {permalink: "/", text: "EN"}
  - {permalink: "/deneme", text: "DENEME"}
- - {permalink: "/newpage/", text: "NEW PAGE"}
+ - {permalink: "/newpage", text: "NEW PAGE"}
 
 
 # TR Navigation
@@ -69,7 +69,7 @@ tr_navigationLinks:
  - {permalink: "/tr/", text: "TR"}
  - {permalink: "/", text: "EN"}
  - {permalink: "/tr/deneme", text: "TR DENEME"}
- - {permalink: "/yenisayfa/", text: "YENİ SAYFA DENEME"}
+ - {permalink: "/tr/yenisayfa", text: "YENİ SAYFA DENEME"}
 
 
 bottomNavigationLinks:
@@ -139,8 +139,8 @@ venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Yeni Sayfamın Başlığı"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueTitle: "TR7 VENUE BAŞLIK"
+venueFeatures: ["TR7 venue metin... "]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
