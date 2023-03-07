@@ -96,6 +96,13 @@ aboutBlock:
  - {title: "Reasonable Price", image: "money.jpg", text: "TR7 TASP, Open source components are optimized and used with reliable hardware platforms, provides business partners with advantageous prices at more competitive prices compared to other LB manufacturers." }
  - {title: "Scalable", image: "scale.jpg", text: "With different boxes, it is adapted to every need with parallel operating modes (active-passive / active-active / passive-passive) depending on the processing power, infrastructure needs and critical level." }
 
+# tr_About Block
+tr_aboutTitle: "TR7 ile Güvenli Web Uygulamaları"
+tr_aboutBlock:
+ - {title: "Tak-Çalıştır", image: "plug.jpg", text: "TR7 uygulama akışlarını dengelemek ve kritik uygulama platformlarının / sunucularının en üst seviyede kullanılabilirliğini garanti etmek için, yüksek performanslı ve kesintiye uğramadan tak-çalıştır gibi bir sistem isteyen şirketler için tasarlanmıştır." }
+ - {title: "Uygun Fiyat", image: "money.jpg", text: "TR7 TADP, Açık kaynak bileşenlerinin optimize edilerek, güvenilir donanım platformlarıyla birlikte kullanılması, TR7 TADP cihazlarının, LB/WAF sektöründeki en iyi performans / özellik / fiyat oranlarını sağlamaktadır. TR7 TADP, diğer LB üreticileri ile karşılaştırıldığında daha rekabetçi fiyatlarla iş ortaklarına avantajlı fiyatlar sağlamaktadır." }
+ - {title: "Ölçeklenebilir", image: "scale.jpg", text: "Farklı kutularla, işlem gücü, altyapı ihtiyaçlarına ve kritiklik seviyesine bağlı olarak paralel çalışma modları (aktif-pasif / aktif-aktif / pasif-pasif) ile her ihtiyaca göre uyarlanır." }
+
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
