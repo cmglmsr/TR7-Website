@@ -242,6 +242,21 @@ showSessions: false
 teamBlockTitle: "Our History & Vision"
 aboutUs: "As TR7 Cyber Security Inc., we set off to eliminate external dependency on load balancing, application distribution and application security, which is one of the areas where our country needs improvement in national cyber security, and to minimize the security gaps that may arise. With the prediction that international wars will take place with cyber elements instead of weapons, our work started in 2008 with producing domestic and national Load Balancer and Web Application Firewall as TRScaler and today continues with the addition of high performance and innovative features to our current technology with the TR7 brand name. "
 
+# tr Team Block
+
+tr_teamBlockTitle: "Geçmişimiz & Geleceğimiz"
+aboutUs: " TR7 Siber Savunma A.Ş. olarak, Ülkemizin milli siber güvenlik konusunda gelişime ihtiyaç duyulan alanlarından biri olan yük dengeleme, uygulama dağıtım ve uygulama güvenliği konularında dışa bağımlılığı ortadan kaldırıp, oluşabilecek güvenlik açıklarını en aza indirmeyi hedefleyerek yola çıktık. Uluslararası savaşların silahlar yerine siber unsurlar ile gerçekleşeceği öngörüsüyle, Türkiye'nin ilk yerli ve milli Yük Dengeleme ve Web Uygulama Güvenlik Duvarı ürünü olan TRScaler ile 2008 yılında başlayan çalışmalarımız, TR7 Markası ile yüksek performanslı ve yenilikçi özelliklerin mevcut teknolojimize sürekli eklenmesi ile devam etmektedir. "
+# Certifcate: "TS EN ISO/IEC 27001:2017 Bilgi Güvenliği Politikası"
+# CertifacateEx: "Firmamız “BİLGİSAYAR PROGRAMLAMA FAALİYETLERİ” alanında hizmet vermektedir. Firmamız gizlilik, bütünlük ve tüm fiziksel ve elektronik bilgi varlıklarını korumayı taahhüt etmektedir. Bilgi ve bilgi güvenliği gereksinimleri kurumsal hedeflerimiz ile aynı doğrultuda olacaktır. Firmamız yönetimi değişime açık, iyi eğitim almış, konusunda yetkin personel istihdamı sağlayacak ve sektör içerisinde rakiplerimizle rekabeti sağlayacak finansmanı sağlamak, yeterli donanım ve altyapıyı bulunduracaktır. Bu altyapı ve personel ile birlikte gerekli finansmanda sağlanacaktır. İş sürekliliği ve acil durum planları, veri yedekleme prosedürleri, virüslerden ve bilgisayar korsanlarından sakınma, erişim kontrol sistemleri ve bilgi güvenliği ihlal bildirimi temel faaliyetlerimizin temel taşlarını oluşturacaktır. Yapılan risk değerlendirmeleri sonucunda elde edilen açıklıklar ve tehditler bertaraf edilerek müşteri ve personelimizin bilgilerine güvenli erişim sağlanacaktır.
+
+# Ayrıca risk değerlendirmeleri sonucunda amaçlarımızı belirleyip bu amaçların başarılması için gerekli olan kaynaklar ve şartlar sağlanacaktır.
+
+# Bu politikayı gerçekleştirmek için başta çalışanlarımızın Bilgi Güvenliği Yönetim Sistemi şartlarını çalışma biçimi haline getirmelerini beklemekteyiz. Tüm personel ve belirli üçüncü tarafların Bilgi Güvenliği Yönetim Sistemi ile ilgili uygun eğitimleri alması sağlanacaktır.
+
+# Bilgi güvenliği ile ilgili uygulanabilir şartlar ve bu şartların getirdiği fırsatlar ve gereklilikler yerine getirilecek ve bu şartlar sürekli iyileştirilecektir. Ayrıca firmamızın, personelimizin ve tüm ilgili tarafların bu sisteme adaptasyonu sağlanacaktır.
+
+# Bilgi Güvenliği Politikamız yılda bir kez ya da firmamızla ilgili önemli değişikliklerin olması durumunda uygunluğunu, doğruluğunu ve etkinliğini sağlamak için yönetim ve birim sorumlularının katılımıyla gözden geçirilmekte ve güncelliği sağlanmaktadır."
+
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
 findWayDistance: "Distance"
@@ -301,6 +316,15 @@ hackathonRows:
  - {title: "Reliable Security", image: "securityicon.jpg", details: "Effective protection, learning and signature-based security with Positive and Negative WAF. Protocol authentication (HTTP) and full protection against denial of service attacks (DoS, DDoS), worms, SQL code injections, etc. Traffic manipulation and advanced URL filtering with authentication-based restriction capability."}
  - {title: "High Performance", image: "speed.png", details: "High speed caching system to free up your web servers and reduce page load times. Traffic compression and HTTP authentication/ authorization cache. TCP / HTTP acceleration through buffering and adjusting server link density with dynamic load balancing."}
  - {title: "Multilayer Load Balancing", image: "layers.png", details: "Load-Balancing supports different protocols (HTTP, DNS, SMTP, IMAP, POP3 etc.) for Layer3 and Layer7 load balancing. All IPv4 and IPv6 protocols, SNI-SSL based virtual hosts, content-based intelligent query routing (content change), reverse proxy, NAT, direct server converter and non-VIP modes are all supported."}
+
+# tr Solutions About Block
+
+tr_aboutHackathonTitle: "İşinizi TR7 ile güvence altına alın"
+hackathonRows:
+ - {title: "Gelişmiş WAF Seçeneği", image: "securityicon.jpg", details: "Olumlu ve Olumsuz WAF ile etkili koruma, öğrenme ve imzaya dayalı güvenlik. Protokol kimlik doğrulaması (HTTP) ve hizmet reddi saldırılarına (DoS, DDoS), solucanlara, SQL kod enjeksiyonlarına vb. Karşı tam koruma. Kimlik doğrulama tabanlı kısıtlama özelliğine sahip trafik manipülasyonu ve gelişmiş URL filtreleme."}
+ - {title: "Yüksek Performans", image: "speed.png", details: "Web sunucularınızı boşaltmak ve sayfa yükleme sürelerini azaltmak için yüksek hızlı önbelleğe alma sistemi. Trafik sıkıştırma ve HTTP kimlik doğrulama / yetkilendirme önbelleği. Dinamik yük dengeleme ile sunucu bağlantı yoğunluğunu arabelleğe alma ve ayarlama yoluyla TCP / HTTP hızlandırması."}
+ - {title: "Multilayer Load Balancing", image: "layers.png", details: "Yük Dengeleme farklı protokolleri (HTTP, DNS, SMTP, IMAP, POP3 vb.) Destekler.) katman3 ve Katman 7 yük dengelemesi için. Tüm IPv4 ve IPv6 protokolleri, SNI-SSL tabanlı sanal konaklar, içerik tabanlı akıllı sorgu yönlendirme (içerik değiştirme), reverse proxy, NAT, doğrudan sunucu dönüştürücü ve VIP olmayan modların tümü desteklenir."}
+
 
 # Hackathon Judges Block
 judgesImage: "judges.jpg"
