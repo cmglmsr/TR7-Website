@@ -320,7 +320,7 @@ hackathonRows:
 # tr Solutions About Block
 
 tr_aboutHackathonTitle: "İşinizi TR7 ile güvence altına alın"
-hackathonRows:
+hackathonRows1:
  - {title: "Gelişmiş WAF Seçeneği", image: "securityicon.jpg", details: "Olumlu ve Olumsuz WAF ile etkili koruma, öğrenme ve imzaya dayalı güvenlik. Protokol kimlik doğrulaması (HTTP) ve hizmet reddi saldırılarına (DoS, DDoS), solucanlara, SQL kod enjeksiyonlarına vb. Karşı tam koruma. Kimlik doğrulama tabanlı kısıtlama özelliğine sahip trafik manipülasyonu ve gelişmiş URL filtreleme."}
  - {title: "Yüksek Performans", image: "speed.png", details: "Web sunucularınızı boşaltmak ve sayfa yükleme sürelerini azaltmak için yüksek hızlı önbelleğe alma sistemi. Trafik sıkıştırma ve HTTP kimlik doğrulama / yetkilendirme önbelleği. Dinamik yük dengeleme ile sunucu bağlantı yoğunluğunu arabelleğe alma ve ayarlama yoluyla TCP / HTTP hızlandırması."}
  - {title: "Multilayer Load Balancing", image: "layers.png", details: "Yük Dengeleme farklı protokolleri (HTTP, DNS, SMTP, IMAP, POP3 vb.) Destekler.) katman3 ve Katman 7 yük dengelemesi için. Tüm IPv4 ve IPv6 protokolleri, SNI-SSL tabanlı sanal konaklar, içerik tabanlı akıllı sorgu yönlendirme (içerik değiştirme), reverse proxy, NAT, doğrudan sunucu dönüştürücü ve VIP olmayan modların tümü desteklenir."}
